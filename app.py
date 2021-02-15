@@ -28,5 +28,5 @@ def predict_expenses():
     return render_template('index.html', prediction_text='Predicted monthly grocery expenses $ {}'.format(output))
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
 

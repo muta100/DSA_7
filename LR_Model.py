@@ -12,7 +12,7 @@ import pickle
 # In[2]:
 
 
-data = pd.read_csv("E:\\Expenses_prediction.csv")
+data = pd.read_csv("Expenses_prediction.csv")
 
 
 # In[3]:
@@ -64,7 +64,7 @@ print('R2 score is {}'.format(r2))
 
 
 # Saving model to disk
-pickle.dump(lr_model, open('E:\\lr_model.pkl','wb'))
+pickle.dump(lr_model, open('lr_model.pkl','wb'))
 
 
 # In[ ]:
